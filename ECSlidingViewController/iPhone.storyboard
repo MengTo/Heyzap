@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C2037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="H2v-Ob-DhD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="H2v-Ob-DhD">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -44,7 +44,6 @@
         <!--Segue Menu View Controller-->
         <scene sceneID="I8C-mA-Mia">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kCD-mL-uPN" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="SegueMenu" id="7RD-62-kd6" customClass="SegueMenuViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="m5y-eR-n0T">
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
@@ -126,6 +125,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kCD-mL-uPN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-236" y="-942"/>
         </scene>
@@ -180,13 +180,16 @@
                                     <action selector="revealRight:" destination="LsE-e5-Jbi" eventType="touchUpInside" id="XaI-77-XDe"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Annie Dupris" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dub-Co-B8i" customClass="ProximaNova">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Annie Dupris" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dub-Co-B8i">
                                 <rect key="frame" x="80" y="11" width="160" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" red="0.20000001789999999" green="0.23921570180000001" blue="0.30196079609999998" alpha="0.25" colorSpace="deviceRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="ProximaNova-Regular"/>
+                                </userDefinedRuntimeAttributes>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.81568634510000004" green="0.83137261870000001" blue="0.85098046059999999" alpha="1" colorSpace="deviceRGB"/>
@@ -531,9 +534,6 @@
         <class className="NavigationTopViewController" superclassName="UINavigationController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NavigationTopViewController.h"/>
         </class>
-        <class className="ProximaNova" superclassName="UILabel">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ProximaNova.h"/>
-        </class>
         <class className="SampleTableViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SampleTableViewController.h"/>
             <relationships>
@@ -557,7 +557,6 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ThirdTopViewController.h"/>
             <relationships>
                 <relationship kind="action" name="revealMenu:"/>
-                <relationship kind="action" name="revealRight:"/>
             </relationships>
         </class>
         <class className="UnderRightViewController" superclassName="UITableViewController">
