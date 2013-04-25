@@ -41,6 +41,7 @@
   [super viewWillAppear:animated];
   
   [self.view addGestureRecognizer:self.slidingViewController.panGesture];
+    
 }
 
 - (IBAction)revealMenu:(id)sender

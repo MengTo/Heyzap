@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SegueMenuViewController : UITableViewController
+@interface SegueMenuViewController : UIViewController
 
 @end
