@@ -28,6 +28,12 @@
 		27FC94E314D105C60000B18C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FC94E214D105C60000B18C /* QuartzCore.framework */; };
 		3B72C92F165296BA00A52233 /* ECSlidingSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B72C92E165296BA00A52233 /* ECSlidingSegue.m */; };
 		3B72C9331652995C00A52233 /* SegueMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B72C9321652995C00A52233 /* SegueMenuViewController.m */; };
+		50C21F2F1729DBF4009B4BB1 /* UIButton+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C21F2E1729DBF4009B4BB1 /* UIButton+TCCustomFont.m */; };
+		50C21F321729DC28009B4BB1 /* UILabel+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C21F311729DC28009B4BB1 /* UILabel+TCCustomFont.m */; };
+		50C21F351729DC50009B4BB1 /* UITextField+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C21F341729DC50009B4BB1 /* UITextField+TCCustomFont.m */; };
+		50C21F361729DD8F009B4BB1 /* ProximaNova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BB439D991729D48A00B7B3BD /* ProximaNova-Bold.otf */; };
+		50C21F371729DD92009B4BB1 /* ProximaNova-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = BB439D9A1729D48B00B7B3BD /* ProximaNova-Light.otf */; };
+		50C21F381729DD95009B4BB1 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BB439D9C1729D63800B7B3BD /* ProximaNova-Regular.otf */; };
 		BB439D701727594000B7B3BD /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439D681727594000B7B3BD /* header.png */; };
 		BB439D711727594000B7B3BD /* menu-back.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439D691727594000B7B3BD /* menu-back.png */; };
 		BB439D721727594000B7B3BD /* menu-new.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439D6A1727594000B7B3BD /* menu-new.png */; };
@@ -52,7 +58,6 @@
 		BB439D941728BAB900B7B3BD /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439D931728BAB900B7B3BD /* profile.png */; };
 		BB439D971729B6E200B7B3BD /* sidenavleft-search.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439D951729B6E200B7B3BD /* sidenavleft-search.png */; };
 		BB439D981729B6E200B7B3BD /* sidenavleft-suggested.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439D961729B6E200B7B3BD /* sidenavleft-suggested.png */; };
-		BB439D9F1729D7D900B7B3BD /* ProximaNova.m in Sources */ = {isa = PBXBuildFile; fileRef = BB439D9E1729D7D800B7B3BD /* ProximaNova.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +98,12 @@
 		3B72C92E165296BA00A52233 /* ECSlidingSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingSegue.m; sourceTree = "<group>"; };
 		3B72C9311652995C00A52233 /* SegueMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegueMenuViewController.h; sourceTree = "<group>"; };
 		3B72C9321652995C00A52233 /* SegueMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegueMenuViewController.m; sourceTree = "<group>"; };
+		50C21F2D1729DBF4009B4BB1 /* UIButton+TCCustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TCCustomFont.h"; sourceTree = "<group>"; };
+		50C21F2E1729DBF4009B4BB1 /* UIButton+TCCustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TCCustomFont.m"; sourceTree = "<group>"; };
+		50C21F301729DC28009B4BB1 /* UILabel+TCCustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TCCustomFont.h"; sourceTree = "<group>"; };
+		50C21F311729DC28009B4BB1 /* UILabel+TCCustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TCCustomFont.m"; sourceTree = "<group>"; };
+		50C21F331729DC4F009B4BB1 /* UITextField+TCCustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TCCustomFont.h"; sourceTree = "<group>"; };
+		50C21F341729DC50009B4BB1 /* UITextField+TCCustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TCCustomFont.m"; sourceTree = "<group>"; };
 		BB439D681727594000B7B3BD /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
 		BB439D691727594000B7B3BD /* menu-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-back.png"; sourceTree = "<group>"; };
 		BB439D6A1727594000B7B3BD /* menu-new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-new.png"; sourceTree = "<group>"; };
@@ -121,8 +132,6 @@
 		BB439D991729D48A00B7B3BD /* ProximaNova-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.otf"; sourceTree = "<group>"; };
 		BB439D9A1729D48B00B7B3BD /* ProximaNova-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Light.otf"; sourceTree = "<group>"; };
 		BB439D9C1729D63800B7B3BD /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
-		BB439D9D1729D7D800B7B3BD /* ProximaNova.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProximaNova.h; sourceTree = "<group>"; };
-		BB439D9E1729D7D800B7B3BD /* ProximaNova.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProximaNova.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +183,7 @@
 		2750E77614CDB0DF007727A0 /* ECSlidingViewController */ = {
 			isa = PBXGroup;
 			children = (
+				50C21F2C1729DBD7009B4BB1 /* Categories */,
 				BB439D671727591C00B7B3BD /* Images */,
 				2750E78A14CDB1CF007727A0 /* Controllers */,
 				2750E78914CDB1C7007727A0 /* Vendor */,
@@ -181,8 +191,6 @@
 				2750E78014CDB0DF007727A0 /* AppDelegate.m */,
 				2750E77714CDB0DF007727A0 /* Supporting Files */,
 				2750E78714CDB114007727A0 /* iPhone.storyboard */,
-				BB439D9D1729D7D800B7B3BD /* ProximaNova.h */,
-				BB439D9E1729D7D800B7B3BD /* ProximaNova.m */,
 				27407EEB14D8787E0035FD7F /* iPad.storyboard */,
 			);
 			path = ECSlidingViewController;
@@ -246,6 +254,19 @@
 			);
 			name = ECSlidingViewController;
 			path = Vendor/ECSlidingViewController;
+			sourceTree = "<group>";
+		};
+		50C21F2C1729DBD7009B4BB1 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				50C21F2D1729DBF4009B4BB1 /* UIButton+TCCustomFont.h */,
+				50C21F2E1729DBF4009B4BB1 /* UIButton+TCCustomFont.m */,
+				50C21F301729DC28009B4BB1 /* UILabel+TCCustomFont.h */,
+				50C21F311729DC28009B4BB1 /* UILabel+TCCustomFont.m */,
+				50C21F331729DC4F009B4BB1 /* UITextField+TCCustomFont.h */,
+				50C21F341729DC50009B4BB1 /* UITextField+TCCustomFont.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 		BB439D671727591C00B7B3BD /* Images */ = {
@@ -354,6 +375,9 @@
 				BB439D941728BAB900B7B3BD /* profile.png in Resources */,
 				BB439D971729B6E200B7B3BD /* sidenavleft-search.png in Resources */,
 				BB439D981729B6E200B7B3BD /* sidenavleft-suggested.png in Resources */,
+				50C21F361729DD8F009B4BB1 /* ProximaNova-Bold.otf in Resources */,
+				50C21F371729DD92009B4BB1 /* ProximaNova-Light.otf in Resources */,
+				50C21F381729DD95009B4BB1 /* ProximaNova-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +403,9 @@
 				3B72C92F165296BA00A52233 /* ECSlidingSegue.m in Sources */,
 				3B72C9331652995C00A52233 /* SegueMenuViewController.m in Sources */,
 				BB439D7C17275CF100B7B3BD /* SideRightMenuViewController.m in Sources */,
-				BB439D9F1729D7D900B7B3BD /* ProximaNova.m in Sources */,
+				50C21F2F1729DBF4009B4BB1 /* UIButton+TCCustomFont.m in Sources */,
+				50C21F321729DC28009B4BB1 /* UILabel+TCCustomFont.m in Sources */,
+				50C21F351729DC50009B4BB1 /* UITextField+TCCustomFont.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
