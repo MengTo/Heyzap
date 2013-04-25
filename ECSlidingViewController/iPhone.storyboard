@@ -40,6 +40,84 @@
             </objects>
             <point key="canvasLocation" x="-252" y="-287"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="I8C-mA-Mia">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kCD-mL-uPN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="7RD-62-kd6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m5y-eR-n0T">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="dlu-lc-4Q0">
+                                <rect key="frame" x="0.0" y="44" width="320" height="341"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.22745099663734436" green="0.27058824896812439" blue="0.33725491166114807" alpha="1" colorSpace="deviceRGB"/>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="npy-sd-HIK">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="341"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RVD-Sv-2aL">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" red="0.20000001789999999" green="0.23921570180000001" blue="0.30196079609999998" alpha="1" colorSpace="deviceRGB"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                            <state key="normal" title="Button" image="sidenavleft-profile.png">
+                                                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <state key="highlighted">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="IEm-oW-nhj">
+                                            <rect key="frame" x="0.0" y="43" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                            <state key="normal" title="Button" image="sidenavleft-activity.png">
+                                                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <state key="highlighted">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ZLl-sg-WKj">
+                                            <rect key="frame" x="0.0" y="86" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                            <state key="normal" title="Button" image="sidenavleft-play.png">
+                                                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <state key="highlighted">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                        </button>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="sidenavleft-rest.png" id="v0s-CT-S6S">
+                                            <rect key="frame" x="0.0" y="129" width="320" height="375"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </view>
+                                <sections/>
+                            </tableView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="sidenavleft-search.png" id="yr3-CN-MgU">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="sidenavleft-suggested.png" id="ELz-pw-NvU">
+                                <rect key="frame" x="0.0" y="378" width="320" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-252" y="-1588"/>
+        </scene>
         <!--Third Top View Controller-->
         <scene sceneID="jdT-tJ-z4E">
             <objects>
@@ -179,27 +257,33 @@
         <!--Segue Menu View Controller-->
         <scene sceneID="Ygk-ij-s0Q">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GHx-aK-zSj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="rFJ-UZ-Hyz">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
                 <tableViewController storyboardIdentifier="SegueMenu" id="7GV-Xe-HLZ" customClass="SegueMenuViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="lSo-hh-zlX">
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.20000001789999999" green="0.23921570180000001" blue="0.30196079609999998" alpha="1" colorSpace="deviceRGB"/>
                         <imageView key="tableFooterView" userInteractionEnabled="NO" contentMode="scaleToFill" image="sidenavleft-rest.png" id="Xbn-ys-IK4">
-                            <rect key="frame" x="0.0" y="130" width="320" height="418"/>
+                            <rect key="frame" x="0.0" y="129" width="320" height="375"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <sections>
                             <tableViewSection id="hkf-0w-sK8">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="44" id="S6Q-j2-1R0">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="43" id="S6Q-j2-1R0">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="42"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="XE9-b3-nbW">
-                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="0.20000001789999999" green="0.23921570180000001" blue="0.30196079609999998" alpha="1" colorSpace="deviceRGB"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -211,7 +295,7 @@
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                     <connections>
-                                                        <segue destination="XYc-ji-qQz" kind="custom" customClass="ECSlidingSegue" id="8cW-Dz-t8z"/>
+                                                        <segue destination="LsE-e5-Jbi" kind="custom" customClass="ECSlidingSegue" id="Ij5-V2-nLC"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -219,7 +303,7 @@
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="43" id="7ef-bN-Af7">
-                                        <rect key="frame" x="0.0" y="44" width="320" height="43"/>
+                                        <rect key="frame" x="0.0" y="43" width="320" height="43"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="42"/>
@@ -246,7 +330,7 @@
                                         <color key="backgroundColor" red="0.20000001789999999" green="0.23921570180000001" blue="0.30196079609999998" alpha="1" colorSpace="deviceRGB"/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="43" id="yyf-1R-Ffs">
-                                        <rect key="frame" x="0.0" y="87" width="320" height="43"/>
+                                        <rect key="frame" x="0.0" y="86" width="320" height="43"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="42"/>
@@ -264,7 +348,7 @@
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                     <connections>
-                                                        <segue destination="LsE-e5-Jbi" kind="custom" customClass="ECSlidingSegue" id="8Q8-62-3hN"/>
+                                                        <segue destination="XYc-ji-qQz" kind="custom" customClass="ECSlidingSegue" id="jTo-vr-vEW"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -281,7 +365,6 @@
                         </connections>
                     </tableView>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GHx-aK-zSj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-252" y="-942"/>
         </scene>
@@ -521,8 +604,10 @@
         <image name="profile.png" width="640" height="1008"/>
         <image name="sidenavleft-activity.png" width="640" height="86"/>
         <image name="sidenavleft-play.png" width="640" height="86"/>
-        <image name="sidenavleft-profile.png" width="640" height="88"/>
-        <image name="sidenavleft-rest.png" width="640" height="836"/>
+        <image name="sidenavleft-profile.png" width="640" height="86"/>
+        <image name="sidenavleft-rest.png" width="640" height="750"/>
+        <image name="sidenavleft-search.png" width="640" height="88"/>
+        <image name="sidenavleft-suggested.png" width="640" height="164"/>
     </resources>
     <classes>
         <class className="ECSlidingViewController" superclassName="UIViewController">
