@@ -9,11 +9,11 @@
             <objects>
                 <viewController storyboardIdentifier="Menu" id="Wid-ZD-WEx" customClass="MenuViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="W0P-Wb-YYH">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="35U-4J-jxL">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -35,10 +35,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Zx-U8-fIp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-252" y="-287"/>
+            <point key="canvasLocation" x="-236" y="-286"/>
         </scene>
         <!--Segue Menu View Controller-->
         <scene sceneID="I8C-mA-Mia">
@@ -196,7 +197,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zjz-eV-f99" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="216" y="-1588"/>
+            <point key="canvasLocation" x="216" y="-1514"/>
         </scene>
         <!--Navigation Top View Controller-->
         <scene sceneID="SXt-FO-RZE">
@@ -211,7 +212,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yWu-gf-oQs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="216" y="-2246"/>
+            <point key="canvasLocation" x="216" y="-2088"/>
         </scene>
         <!--Sample Table View Controller - Navigation-->
         <scene sceneID="Yq6-PB-2Ba">
@@ -250,7 +251,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l3b-ql-eKa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="678" y="-2246"/>
+            <point key="canvasLocation" x="658" y="-2088"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="cSZ-Fj-saR">
@@ -265,18 +266,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="loh-8u-rWN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1150" y="-2246"/>
+            <point key="canvasLocation" x="1097" y="-2088"/>
         </scene>
         <!--Second Top View Controller-->
         <scene sceneID="dCa-Xc-F9L">
             <objects>
                 <viewController storyboardIdentifier="SecondTop" id="XYc-ji-qQz" customClass="SecondTopViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rVv-as-9Yf">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="cai-UN-EDd">
-                                <rect key="frame" x="0.0" y="43" width="320" height="417"/>
+                                <rect key="frame" x="0.0" y="43" width="320" height="505"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.81568634510000004" green="0.83137261870000001" blue="0.85098046059999999" alpha="1" colorSpace="deviceRGB"/>
                                 <imageView key="tableFooterView" userInteractionEnabled="NO" contentMode="scaleToFill" image="play.png" id="SqE-CK-3fe">
@@ -333,6 +334,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.81568634510000004" green="0.83137261870000001" blue="0.85098046059999999" alpha="1" colorSpace="deviceRGB"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7AE-EV-BdB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -343,11 +345,11 @@
             <objects>
                 <viewController storyboardIdentifier="FirstTop" id="fYD-9N-EQW" customClass="FirstTopViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d8v-Bl-Aef">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="ezH-Pi-gZo">
-                                <rect key="frame" x="0.0" y="43" width="320" height="417"/>
+                                <rect key="frame" x="0.0" y="43" width="320" height="505"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.81568634510000004" green="0.83137261870000001" blue="0.85098046059999999" alpha="1" colorSpace="deviceRGB"/>
                                 <imageView key="tableFooterView" userInteractionEnabled="NO" contentMode="scaleToFill" image="Screen-Stream.png" id="8IE-Ya-efq">
@@ -404,6 +406,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.81568634510040283" green="0.83137261867523193" blue="0.85098046064376831" alpha="1" colorSpace="deviceRGB"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="opW-8m-5uU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -433,7 +436,7 @@
             <objects>
                 <tableViewController storyboardIdentifier="UnderRight" id="Ig4-5y-QXh" customClass="UnderRightViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="st9-09-gdI">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <searchBar key="tableHeaderView" contentMode="redraw" id="Hcf-8U-dy3">
@@ -460,6 +463,7 @@
                             <outlet property="delegate" destination="Ig4-5y-QXh" id="QPl-aj-WaV"/>
                         </connections>
                     </tableView>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="searchDisplayController" destination="pGs-mS-Bfe" id="4P8-CS-6r5"/>
                     </connections>
@@ -475,21 +479,22 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="678" y="-287"/>
+            <point key="canvasLocation" x="658" y="-287"/>
         </scene>
         <!--Initial Sliding View Controller-->
         <scene sceneID="OC6-i3-9aC">
             <objects>
                 <viewController id="H2v-Ob-DhD" customClass="InitialSlidingViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IWW-TW-Yeo">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BIB-pv-C48" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-720" y="-287"/>
+            <point key="canvasLocation" x="-677" y="-286"/>
         </scene>
     </scenes>
     <resources>
