@@ -13,6 +13,12 @@
 - (void)viewWillAppear:(BOOL)animated
 {
   [super viewWillAppear:animated];
+    
+    // shadowPath, shadowOffset, and rotation is handled by ECSlidingViewController.
+    // You just need to set the opacity, radius, and color.
+    self.view.layer.shadowOpacity = 0.5f;
+    self.view.layer.shadowRadius = 5.0f;
+    self.view.layer.shadowColor = [UIColor blackColor].CGColor;
   
 //  self.slidingViewController.underRightViewController = nil;
 //  self.slidingViewController.anchorLeftPeekAmount     = 0;

@@ -58,6 +58,8 @@
 		BB439D941728BAB900B7B3BD /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439D931728BAB900B7B3BD /* profile.png */; };
 		BB439D971729B6E200B7B3BD /* sidenavleft-search.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439D951729B6E200B7B3BD /* sidenavleft-search.png */; };
 		BB439D981729B6E200B7B3BD /* sidenavleft-suggested.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439D961729B6E200B7B3BD /* sidenavleft-suggested.png */; };
+		BB439DA21729E80700B7B3BD /* details-write.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439DA01729E80600B7B3BD /* details-write.png */; };
+		BB439DA31729E80700B7B3BD /* details.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439DA11729E80600B7B3BD /* details.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -132,6 +134,8 @@
 		BB439D991729D48A00B7B3BD /* ProximaNova-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.otf"; sourceTree = "<group>"; };
 		BB439D9A1729D48B00B7B3BD /* ProximaNova-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Light.otf"; sourceTree = "<group>"; };
 		BB439D9C1729D63800B7B3BD /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
+		BB439DA01729E80600B7B3BD /* details-write.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "details-write.png"; sourceTree = "<group>"; };
+		BB439DA11729E80600B7B3BD /* details.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = details.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,6 +276,8 @@
 		BB439D671727591C00B7B3BD /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				BB439DA01729E80600B7B3BD /* details-write.png */,
+				BB439DA11729E80600B7B3BD /* details.png */,
 				BB439D8517276CB900B7B3BD /* Nav-Notifications2.png */,
 				BB439D8F1728B6D200B7B3BD /* play.png */,
 				BB439D911728B6DB00B7B3BD /* header-search.png */,
@@ -378,6 +384,8 @@
 				50C21F361729DD8F009B4BB1 /* ProximaNova-Bold.otf in Resources */,
 				50C21F371729DD92009B4BB1 /* ProximaNova-Light.otf in Resources */,
 				50C21F381729DD95009B4BB1 /* ProximaNova-Regular.otf in Resources */,
+				BB439DA21729E80700B7B3BD /* details-write.png in Resources */,
+				BB439DA31729E80700B7B3BD /* details.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
