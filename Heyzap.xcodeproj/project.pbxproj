@@ -60,6 +60,7 @@
 		BB439D981729B6E200B7B3BD /* sidenavleft-suggested.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439D961729B6E200B7B3BD /* sidenavleft-suggested.png */; };
 		BB439DA21729E80700B7B3BD /* details-write.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439DA01729E80600B7B3BD /* details-write.png */; };
 		BB439DA31729E80700B7B3BD /* details.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439DA11729E80600B7B3BD /* details.png */; };
+		BB439DA61729EF3300B7B3BD /* SteamDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB439DA51729EF3200B7B3BD /* SteamDetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -136,6 +137,8 @@
 		BB439D9C1729D63800B7B3BD /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
 		BB439DA01729E80600B7B3BD /* details-write.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "details-write.png"; sourceTree = "<group>"; };
 		BB439DA11729E80600B7B3BD /* details.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = details.png; sourceTree = "<group>"; };
+		BB439DA41729EF3200B7B3BD /* SteamDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SteamDetailsViewController.h; sourceTree = "<group>"; };
+		BB439DA51729EF3200B7B3BD /* SteamDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SteamDetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +198,8 @@
 				2750E78014CDB0DF007727A0 /* AppDelegate.m */,
 				2750E77714CDB0DF007727A0 /* Supporting Files */,
 				2750E78714CDB114007727A0 /* iPhone.storyboard */,
+				BB439DA41729EF3200B7B3BD /* SteamDetailsViewController.h */,
+				BB439DA51729EF3200B7B3BD /* SteamDetailsViewController.m */,
 				27407EEB14D8787E0035FD7F /* iPad.storyboard */,
 			);
 			path = ECSlidingViewController;
@@ -414,6 +419,7 @@
 				50C21F2F1729DBF4009B4BB1 /* UIButton+TCCustomFont.m in Sources */,
 				50C21F321729DC28009B4BB1 /* UILabel+TCCustomFont.m in Sources */,
 				50C21F351729DC50009B4BB1 /* UITextField+TCCustomFont.m in Sources */,
+				BB439DA61729EF3300B7B3BD /* SteamDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
