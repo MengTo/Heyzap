@@ -47,7 +47,6 @@
 		BB439D7E17276A6C00B7B3BD /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439D7D17276A6C00B7B3BD /* Icon@2x.png */; };
 		BB439D8017276A6E00B7B3BD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439D7F17276A6E00B7B3BD /* Icon.png */; };
 		BB439D8217276B3900B7B3BD /* SideNavLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439D8117276B3900B7B3BD /* SideNavLeft.png */; };
-		BB439D8417276C4F00B7B3BD /* SideNavLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439D8317276C4F00B7B3BD /* SideNavLeft.png */; };
 		BB439D8617276CB900B7B3BD /* Nav-Notifications2.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439D8517276CB900B7B3BD /* Nav-Notifications2.png */; };
 		BB439D8B1728871E00B7B3BD /* sidenavleft-activity.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439D871728871E00B7B3BD /* sidenavleft-activity.png */; };
 		BB439D8C1728871E00B7B3BD /* sidenavleft-play.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439D881728871E00B7B3BD /* sidenavleft-play.png */; };
@@ -66,6 +65,18 @@
 		BB439DAE1729FF6700B7B3BD /* UINavigationController+BackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BB439DAD1729FF6700B7B3BD /* UINavigationController+BackButton.m */; };
 		BB439DB1172A09F300B7B3BD /* game.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439DAF172A09F300B7B3BD /* game.png */; };
 		BB439DB2172A09F300B7B3BD /* writeacomment.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439DB0172A09F300B7B3BD /* writeacomment.png */; };
+		BB80D819172B046F0077C9D7 /* Nav-Notifications-Header.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80D818172B046F0077C9D7 /* Nav-Notifications-Header.png */; };
+		BB80D81E172B17BD0077C9D7 /* menu-close.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80D81A172B17BD0077C9D7 /* menu-close.png */; };
+		BB80D81F172B17BD0077C9D7 /* Messages-Themed.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80D81B172B17BD0077C9D7 /* Messages-Themed.png */; };
+		BB80D820172B17BD0077C9D7 /* Post-translucent.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80D81C172B17BD0077C9D7 /* Post-translucent.png */; };
+		BB80D821172B17BD0077C9D7 /* tab.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80D81D172B17BD0077C9D7 /* tab.png */; };
+		BB80D824172B18C30077C9D7 /* Checkin.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80D822172B18C30077C9D7 /* Checkin.png */; };
+		BB80D825172B18C30077C9D7 /* WriteProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80D823172B18C30077C9D7 /* WriteProfile.png */; };
+		BB80D828172B1ABD0077C9D7 /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB80D827172B1ABD0077C9D7 /* ComposeViewController.m */; };
+		BB80D82B172B234E0077C9D7 /* CheckinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB80D82A172B234E0077C9D7 /* CheckinViewController.m */; };
+		BB80D82F172B28C90077C9D7 /* messages-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80D82C172B28C80077C9D7 /* messages-bar.png */; };
+		BB80D830172B28C90077C9D7 /* messages-compose.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80D82D172B28C80077C9D7 /* messages-compose.png */; };
+		BB80D831172B28C90077C9D7 /* messages-content.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80D82E172B28C80077C9D7 /* messages-content.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -151,6 +162,20 @@
 		BB439DAD1729FF6700B7B3BD /* UINavigationController+BackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+BackButton.m"; sourceTree = "<group>"; };
 		BB439DAF172A09F300B7B3BD /* game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game.png; sourceTree = "<group>"; };
 		BB439DB0172A09F300B7B3BD /* writeacomment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = writeacomment.png; sourceTree = "<group>"; };
+		BB80D818172B046F0077C9D7 /* Nav-Notifications-Header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nav-Notifications-Header.png"; sourceTree = "<group>"; };
+		BB80D81A172B17BD0077C9D7 /* menu-close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-close.png"; sourceTree = "<group>"; };
+		BB80D81B172B17BD0077C9D7 /* Messages-Themed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Messages-Themed.png"; sourceTree = "<group>"; };
+		BB80D81C172B17BD0077C9D7 /* Post-translucent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Post-translucent.png"; sourceTree = "<group>"; };
+		BB80D81D172B17BD0077C9D7 /* tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab.png; sourceTree = "<group>"; };
+		BB80D822172B18C30077C9D7 /* Checkin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Checkin.png; sourceTree = "<group>"; };
+		BB80D823172B18C30077C9D7 /* WriteProfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WriteProfile.png; sourceTree = "<group>"; };
+		BB80D826172B1ABD0077C9D7 /* ComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeViewController.h; sourceTree = "<group>"; };
+		BB80D827172B1ABD0077C9D7 /* ComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
+		BB80D829172B234E0077C9D7 /* CheckinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckinViewController.h; sourceTree = "<group>"; };
+		BB80D82A172B234E0077C9D7 /* CheckinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckinViewController.m; sourceTree = "<group>"; };
+		BB80D82C172B28C80077C9D7 /* messages-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "messages-bar.png"; sourceTree = "<group>"; };
+		BB80D82D172B28C80077C9D7 /* messages-compose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "messages-compose.png"; sourceTree = "<group>"; };
+		BB80D82E172B28C80077C9D7 /* messages-content.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "messages-content.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,11 +235,15 @@
 				2750E78014CDB0DF007727A0 /* AppDelegate.m */,
 				2750E77714CDB0DF007727A0 /* Supporting Files */,
 				2750E78714CDB114007727A0 /* iPhone.storyboard */,
+				BB80D829172B234E0077C9D7 /* CheckinViewController.h */,
+				BB80D82A172B234E0077C9D7 /* CheckinViewController.m */,
 				BB439DA91729FD9400B7B3BD /* PeopleViewController.h */,
 				BB439DAA1729FD9400B7B3BD /* PeopleViewController.m */,
 				BB439DA41729EF3200B7B3BD /* SteamDetailsViewController.h */,
 				BB439DA51729EF3200B7B3BD /* SteamDetailsViewController.m */,
 				27407EEB14D8787E0035FD7F /* iPad.storyboard */,
+				BB80D826172B1ABD0077C9D7 /* ComposeViewController.h */,
+				BB80D827172B1ABD0077C9D7 /* ComposeViewController.m */,
 			);
 			path = ECSlidingViewController;
 			sourceTree = "<group>";
@@ -297,6 +326,16 @@
 		BB439D671727591C00B7B3BD /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				BB80D82C172B28C80077C9D7 /* messages-bar.png */,
+				BB80D82D172B28C80077C9D7 /* messages-compose.png */,
+				BB80D82E172B28C80077C9D7 /* messages-content.png */,
+				BB80D822172B18C30077C9D7 /* Checkin.png */,
+				BB80D823172B18C30077C9D7 /* WriteProfile.png */,
+				BB80D81A172B17BD0077C9D7 /* menu-close.png */,
+				BB80D81B172B17BD0077C9D7 /* Messages-Themed.png */,
+				BB80D81C172B17BD0077C9D7 /* Post-translucent.png */,
+				BB80D81D172B17BD0077C9D7 /* tab.png */,
+				BB80D818172B046F0077C9D7 /* Nav-Notifications-Header.png */,
 				BB439DA01729E80600B7B3BD /* details-write.png */,
 				BB439DA11729E80600B7B3BD /* details.png */,
 				BB439D8517276CB900B7B3BD /* Nav-Notifications2.png */,
@@ -355,7 +394,7 @@
 		2750E76314CDB0DF007727A0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = 2750E76614CDB0DF007727A0 /* Build configuration list for PBXProject "Heyzap" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -394,7 +433,6 @@
 				BB439D7E17276A6C00B7B3BD /* Icon@2x.png in Resources */,
 				BB439D8017276A6E00B7B3BD /* Icon.png in Resources */,
 				BB439D8217276B3900B7B3BD /* SideNavLeft.png in Resources */,
-				BB439D8417276C4F00B7B3BD /* SideNavLeft.png in Resources */,
 				BB439D8617276CB900B7B3BD /* Nav-Notifications2.png in Resources */,
 				BB439D8B1728871E00B7B3BD /* sidenavleft-activity.png in Resources */,
 				BB439D8C1728871E00B7B3BD /* sidenavleft-play.png in Resources */,
@@ -413,6 +451,16 @@
 				BB439DA81729FB7600B7B3BD /* people.png in Resources */,
 				BB439DB1172A09F300B7B3BD /* game.png in Resources */,
 				BB439DB2172A09F300B7B3BD /* writeacomment.png in Resources */,
+				BB80D819172B046F0077C9D7 /* Nav-Notifications-Header.png in Resources */,
+				BB80D81E172B17BD0077C9D7 /* menu-close.png in Resources */,
+				BB80D81F172B17BD0077C9D7 /* Messages-Themed.png in Resources */,
+				BB80D820172B17BD0077C9D7 /* Post-translucent.png in Resources */,
+				BB80D821172B17BD0077C9D7 /* tab.png in Resources */,
+				BB80D824172B18C30077C9D7 /* Checkin.png in Resources */,
+				BB80D825172B18C30077C9D7 /* WriteProfile.png in Resources */,
+				BB80D82F172B28C90077C9D7 /* messages-bar.png in Resources */,
+				BB80D830172B28C90077C9D7 /* messages-compose.png in Resources */,
+				BB80D831172B28C90077C9D7 /* messages-content.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +492,8 @@
 				BB439DA61729EF3300B7B3BD /* SteamDetailsViewController.m in Sources */,
 				BB439DAB1729FD9400B7B3BD /* PeopleViewController.m in Sources */,
 				BB439DAE1729FF6700B7B3BD /* UINavigationController+BackButton.m in Sources */,
+				BB80D828172B1ABD0077C9D7 /* ComposeViewController.m in Sources */,
+				BB80D82B172B234E0077C9D7 /* CheckinViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
