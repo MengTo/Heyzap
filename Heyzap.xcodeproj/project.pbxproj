@@ -61,6 +61,9 @@
 		BB439DA21729E80700B7B3BD /* details-write.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439DA01729E80600B7B3BD /* details-write.png */; };
 		BB439DA31729E80700B7B3BD /* details.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439DA11729E80600B7B3BD /* details.png */; };
 		BB439DA61729EF3300B7B3BD /* SteamDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB439DA51729EF3200B7B3BD /* SteamDetailsViewController.m */; };
+		BB439DA81729FB7600B7B3BD /* people.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439DA71729FB7600B7B3BD /* people.png */; };
+		BB439DAB1729FD9400B7B3BD /* PeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB439DAA1729FD9400B7B3BD /* PeopleViewController.m */; };
+		BB439DAE1729FF6700B7B3BD /* UINavigationController+BackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BB439DAD1729FF6700B7B3BD /* UINavigationController+BackButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -139,6 +142,11 @@
 		BB439DA11729E80600B7B3BD /* details.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = details.png; sourceTree = "<group>"; };
 		BB439DA41729EF3200B7B3BD /* SteamDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SteamDetailsViewController.h; sourceTree = "<group>"; };
 		BB439DA51729EF3200B7B3BD /* SteamDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SteamDetailsViewController.m; sourceTree = "<group>"; };
+		BB439DA71729FB7600B7B3BD /* people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = people.png; sourceTree = "<group>"; };
+		BB439DA91729FD9400B7B3BD /* PeopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleViewController.h; sourceTree = "<group>"; };
+		BB439DAA1729FD9400B7B3BD /* PeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleViewController.m; sourceTree = "<group>"; };
+		BB439DAC1729FF6700B7B3BD /* UINavigationController+BackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+BackButton.h"; sourceTree = "<group>"; };
+		BB439DAD1729FF6700B7B3BD /* UINavigationController+BackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+BackButton.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +206,8 @@
 				2750E78014CDB0DF007727A0 /* AppDelegate.m */,
 				2750E77714CDB0DF007727A0 /* Supporting Files */,
 				2750E78714CDB114007727A0 /* iPhone.storyboard */,
+				BB439DA91729FD9400B7B3BD /* PeopleViewController.h */,
+				BB439DAA1729FD9400B7B3BD /* PeopleViewController.m */,
 				BB439DA41729EF3200B7B3BD /* SteamDetailsViewController.h */,
 				BB439DA51729EF3200B7B3BD /* SteamDetailsViewController.m */,
 				27407EEB14D8787E0035FD7F /* iPad.storyboard */,
@@ -274,6 +284,8 @@
 				50C21F311729DC28009B4BB1 /* UILabel+TCCustomFont.m */,
 				50C21F331729DC4F009B4BB1 /* UITextField+TCCustomFont.h */,
 				50C21F341729DC50009B4BB1 /* UITextField+TCCustomFont.m */,
+				BB439DAC1729FF6700B7B3BD /* UINavigationController+BackButton.h */,
+				BB439DAD1729FF6700B7B3BD /* UINavigationController+BackButton.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -286,6 +298,7 @@
 				BB439D8517276CB900B7B3BD /* Nav-Notifications2.png */,
 				BB439D8F1728B6D200B7B3BD /* play.png */,
 				BB439D911728B6DB00B7B3BD /* header-search.png */,
+				BB439DA71729FB7600B7B3BD /* people.png */,
 				BB439D681727594000B7B3BD /* header.png */,
 				BB439D991729D48A00B7B3BD /* ProximaNova-Bold.otf */,
 				BB439D9A1729D48B00B7B3BD /* ProximaNova-Light.otf */,
@@ -391,6 +404,7 @@
 				50C21F381729DD95009B4BB1 /* ProximaNova-Regular.otf in Resources */,
 				BB439DA21729E80700B7B3BD /* details-write.png in Resources */,
 				BB439DA31729E80700B7B3BD /* details.png in Resources */,
+				BB439DA81729FB7600B7B3BD /* people.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +434,8 @@
 				50C21F321729DC28009B4BB1 /* UILabel+TCCustomFont.m in Sources */,
 				50C21F351729DC50009B4BB1 /* UITextField+TCCustomFont.m in Sources */,
 				BB439DA61729EF3300B7B3BD /* SteamDetailsViewController.m in Sources */,
+				BB439DAB1729FD9400B7B3BD /* PeopleViewController.m in Sources */,
+				BB439DAE1729FF6700B7B3BD /* UINavigationController+BackButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
