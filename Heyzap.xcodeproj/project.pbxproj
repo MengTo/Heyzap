@@ -64,6 +64,8 @@
 		BB439DA81729FB7600B7B3BD /* people.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439DA71729FB7600B7B3BD /* people.png */; };
 		BB439DAB1729FD9400B7B3BD /* PeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB439DAA1729FD9400B7B3BD /* PeopleViewController.m */; };
 		BB439DAE1729FF6700B7B3BD /* UINavigationController+BackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BB439DAD1729FF6700B7B3BD /* UINavigationController+BackButton.m */; };
+		BB439DB1172A09F300B7B3BD /* game.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439DAF172A09F300B7B3BD /* game.png */; };
+		BB439DB2172A09F300B7B3BD /* writeacomment.png in Resources */ = {isa = PBXBuildFile; fileRef = BB439DB0172A09F300B7B3BD /* writeacomment.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -147,6 +149,8 @@
 		BB439DAA1729FD9400B7B3BD /* PeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleViewController.m; sourceTree = "<group>"; };
 		BB439DAC1729FF6700B7B3BD /* UINavigationController+BackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+BackButton.h"; sourceTree = "<group>"; };
 		BB439DAD1729FF6700B7B3BD /* UINavigationController+BackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+BackButton.m"; sourceTree = "<group>"; };
+		BB439DAF172A09F300B7B3BD /* game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game.png; sourceTree = "<group>"; };
+		BB439DB0172A09F300B7B3BD /* writeacomment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = writeacomment.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,6 +301,8 @@
 				BB439DA11729E80600B7B3BD /* details.png */,
 				BB439D8517276CB900B7B3BD /* Nav-Notifications2.png */,
 				BB439D8F1728B6D200B7B3BD /* play.png */,
+				BB439DAF172A09F300B7B3BD /* game.png */,
+				BB439DB0172A09F300B7B3BD /* writeacomment.png */,
 				BB439D911728B6DB00B7B3BD /* header-search.png */,
 				BB439DA71729FB7600B7B3BD /* people.png */,
 				BB439D681727594000B7B3BD /* header.png */,
@@ -405,6 +411,8 @@
 				BB439DA21729E80700B7B3BD /* details-write.png in Resources */,
 				BB439DA31729E80700B7B3BD /* details.png in Resources */,
 				BB439DA81729FB7600B7B3BD /* people.png in Resources */,
+				BB439DB1172A09F300B7B3BD /* game.png in Resources */,
+				BB439DB2172A09F300B7B3BD /* writeacomment.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
