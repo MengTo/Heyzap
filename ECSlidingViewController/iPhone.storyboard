@@ -486,11 +486,11 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="ezH-Pi-gZo">
-                                <rect key="frame" x="0.0" y="87" width="320" height="505"/>
+                                <rect key="frame" x="0.0" y="87" width="320" height="461"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.81568634510000004" green="0.83137261870000001" blue="0.85098046059999999" alpha="1" colorSpace="deviceRGB"/>
                                 <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="rkD-cg-HeW">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="1001"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                     <state key="normal" image="Screen-Stream.png">
