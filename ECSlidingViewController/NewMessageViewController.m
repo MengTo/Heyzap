@@ -1,18 +1,18 @@
 //
-//  ComposeViewController.m
+//  NewMessageViewController.m
 //  Heyzap
 //
 //  Created by Meng To on 4/26/13.
 //
 //
 
-#import "ComposeViewController.h"
+#import "NewMessageViewController.h"
 
-@interface ComposeViewController ()
+@interface NewMessageViewController ()
 
 @end
 
-@implementation ComposeViewController
+@implementation NewMessageViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,6 +27,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
     
     [self.textField becomeFirstResponder];
 }
@@ -39,8 +43,6 @@
 
 - (void)viewDidUnload {
     [self setTextField:nil];
-    [self setTextField:nil];
     [super viewDidUnload];
 }
-
 @end

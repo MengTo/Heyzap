@@ -77,6 +77,13 @@
 		BB80D82F172B28C90077C9D7 /* messages-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80D82C172B28C80077C9D7 /* messages-bar.png */; };
 		BB80D830172B28C90077C9D7 /* messages-compose.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80D82D172B28C80077C9D7 /* messages-compose.png */; };
 		BB80D831172B28C90077C9D7 /* messages-content.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80D82E172B28C80077C9D7 /* messages-content.png */; };
+		BB80D835172B46520077C9D7 /* achievements-popup.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80D832172B46520077C9D7 /* achievements-popup.png */; };
+		BB80D836172B46520077C9D7 /* achievements.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80D833172B46520077C9D7 /* achievements.png */; };
+		BB80D837172B46520077C9D7 /* menu-badges.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80D834172B46520077C9D7 /* menu-badges.png */; };
+		BB80D839172B4DEA0077C9D7 /* scores.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80D838172B4DEA0077C9D7 /* scores.png */; };
+		BB80D83C172B51C70077C9D7 /* compose-select.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80D83A172B51C70077C9D7 /* compose-select.png */; };
+		BB80D83D172B51C70077C9D7 /* compose-to.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80D83B172B51C70077C9D7 /* compose-to.png */; };
+		BB80D840172B53A50077C9D7 /* NewMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB80D83F172B53A50077C9D7 /* NewMessageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -176,6 +183,14 @@
 		BB80D82C172B28C80077C9D7 /* messages-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "messages-bar.png"; sourceTree = "<group>"; };
 		BB80D82D172B28C80077C9D7 /* messages-compose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "messages-compose.png"; sourceTree = "<group>"; };
 		BB80D82E172B28C80077C9D7 /* messages-content.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "messages-content.png"; sourceTree = "<group>"; };
+		BB80D832172B46520077C9D7 /* achievements-popup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "achievements-popup.png"; sourceTree = "<group>"; };
+		BB80D833172B46520077C9D7 /* achievements.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = achievements.png; sourceTree = "<group>"; };
+		BB80D834172B46520077C9D7 /* menu-badges.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-badges.png"; sourceTree = "<group>"; };
+		BB80D838172B4DEA0077C9D7 /* scores.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scores.png; sourceTree = "<group>"; };
+		BB80D83A172B51C70077C9D7 /* compose-select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose-select.png"; sourceTree = "<group>"; };
+		BB80D83B172B51C70077C9D7 /* compose-to.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose-to.png"; sourceTree = "<group>"; };
+		BB80D83E172B53A50077C9D7 /* NewMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewMessageViewController.h; sourceTree = "<group>"; };
+		BB80D83F172B53A50077C9D7 /* NewMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewMessageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +250,8 @@
 				2750E78014CDB0DF007727A0 /* AppDelegate.m */,
 				2750E77714CDB0DF007727A0 /* Supporting Files */,
 				2750E78714CDB114007727A0 /* iPhone.storyboard */,
+				BB80D83E172B53A50077C9D7 /* NewMessageViewController.h */,
+				BB80D83F172B53A50077C9D7 /* NewMessageViewController.m */,
 				BB80D829172B234E0077C9D7 /* CheckinViewController.h */,
 				BB80D82A172B234E0077C9D7 /* CheckinViewController.m */,
 				BB439DA91729FD9400B7B3BD /* PeopleViewController.h */,
@@ -326,6 +343,12 @@
 		BB439D671727591C00B7B3BD /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				BB80D83A172B51C70077C9D7 /* compose-select.png */,
+				BB80D83B172B51C70077C9D7 /* compose-to.png */,
+				BB80D838172B4DEA0077C9D7 /* scores.png */,
+				BB80D832172B46520077C9D7 /* achievements-popup.png */,
+				BB80D833172B46520077C9D7 /* achievements.png */,
+				BB80D834172B46520077C9D7 /* menu-badges.png */,
 				BB80D82C172B28C80077C9D7 /* messages-bar.png */,
 				BB80D82D172B28C80077C9D7 /* messages-compose.png */,
 				BB80D82E172B28C80077C9D7 /* messages-content.png */,
@@ -461,6 +484,12 @@
 				BB80D82F172B28C90077C9D7 /* messages-bar.png in Resources */,
 				BB80D830172B28C90077C9D7 /* messages-compose.png in Resources */,
 				BB80D831172B28C90077C9D7 /* messages-content.png in Resources */,
+				BB80D835172B46520077C9D7 /* achievements-popup.png in Resources */,
+				BB80D836172B46520077C9D7 /* achievements.png in Resources */,
+				BB80D837172B46520077C9D7 /* menu-badges.png in Resources */,
+				BB80D839172B4DEA0077C9D7 /* scores.png in Resources */,
+				BB80D83C172B51C70077C9D7 /* compose-select.png in Resources */,
+				BB80D83D172B51C70077C9D7 /* compose-to.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +523,7 @@
 				BB439DAE1729FF6700B7B3BD /* UINavigationController+BackButton.m in Sources */,
 				BB80D828172B1ABD0077C9D7 /* ComposeViewController.m in Sources */,
 				BB80D82B172B234E0077C9D7 /* CheckinViewController.m in Sources */,
+				BB80D840172B53A50077C9D7 /* NewMessageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
