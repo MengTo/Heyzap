@@ -835,6 +835,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="Rbb-1p-ETT" kind="unwind" unwindAction="backButton:" id="77R-ZT-OcM"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="compose-to.png" id="FsS-qD-SBA">
                                         <rect key="frame" x="0.0" y="42" width="320" height="42"/>
@@ -859,6 +862,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8bk-9P-E5v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Rbb-1p-ETT" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1503" y="410"/>
         </scene>
