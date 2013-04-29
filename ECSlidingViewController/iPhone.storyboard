@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C2037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="H2v-Ob-DhD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="RYg-N2-Mif">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -1307,6 +1307,45 @@
             </objects>
             <point key="canvasLocation" x="-236" y="-286"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="28Y-Ep-0PR">
+            <objects>
+                <viewController id="RYg-N2-Mif" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="n4U-ab-0eh">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <containerView contentMode="scaleToFill" id="OFe-O4-AKy">
+                                <rect key="frame" x="0.0" y="113" width="320" height="180"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <connections>
+                                    <segue destination="rSC-Nk-C6t" kind="embed" id="ayt-1X-f5E"/>
+                                </connections>
+                            </containerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RTM-c7-Ks9">
+                                <rect key="frame" x="121" y="330" width="64" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Swap">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleContainers:" destination="RYg-N2-Mif" eventType="touchUpInside" id="aOF-eA-fPj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rol-0T-q0F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-574" y="528"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="1w7-3y-K8D">
             <objects>
@@ -1367,6 +1406,59 @@
             </objects>
             <point key="canvasLocation" x="216" y="-942"/>
         </scene>
+        <!--Container View Controller-->
+        <scene sceneID="2Yr-jo-xgc">
+            <objects>
+                <viewController id="rSC-Nk-C6t" customClass="ContainerViewController" sceneMemberID="viewController">
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="PI5-7b-bW3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="segueID1" value="segue1"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="segueID2" value="segue2"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <segue destination="we3-Rh-1uD" kind="custom" identifier="segue1" customClass="ContainerSegue" id="qom-WV-Wnf"/>
+                        <segue destination="nIq-af-w4g" kind="custom" identifier="segue2" customClass="ContainerSegue" id="47N-Lu-zFN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7OJ-Qw-lmT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-208" y="678"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qgq-TI-lyu">
+            <objects>
+                <viewController id="nIq-af-w4g" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DOW-gp-LQ6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qBX-aV-y1D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="153" y="936"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="T01-KI-rvw">
+            <objects>
+                <viewController id="we3-Rh-1uD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3id-ez-dVX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.29693202549999997" green="0.67586678830000002" blue="0.76782048359999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="THs-gR-sZd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="185" y="414"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Checkin.png" width="640" height="576"/>
@@ -1422,6 +1514,9 @@
                 <relationship kind="outlet" name="textField" candidateClass="UITextField"/>
             </relationships>
         </class>
+        <class className="ContainerViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ContainerViewController.h"/>
+        </class>
         <class className="ECSlidingViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ECSlidingViewController.h"/>
         </class>
@@ -1459,9 +1554,6 @@
         </class>
         <class className="SteamDetailsViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SteamDetailsViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="backButton:"/>
-            </relationships>
         </class>
         <class className="ThirdTopViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ThirdTopViewController.h"/>
@@ -1478,6 +1570,12 @@
         </class>
         <class className="UIStoryboardSegue" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/UIStoryboardSegue.h"/>
+        </class>
+        <class className="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UIViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="toggleContainers:"/>
+            </relationships>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
