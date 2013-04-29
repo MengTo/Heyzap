@@ -28,6 +28,9 @@
 		27FC94E314D105C60000B18C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FC94E214D105C60000B18C /* QuartzCore.framework */; };
 		3B72C92F165296BA00A52233 /* ECSlidingSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B72C92E165296BA00A52233 /* ECSlidingSegue.m */; };
 		3B72C9331652995C00A52233 /* SegueMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B72C9321652995C00A52233 /* SegueMenuViewController.m */; };
+		50040F3B172EEC81004A1E1B /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50040F38172EEC81004A1E1B /* ContainerViewController.m */; };
+		50040F3C172EEC81004A1E1B /* ContainerSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 50040F3A172EEC81004A1E1B /* ContainerSegue.m */; };
+		50040F3F172EECA9004A1E1B /* UIViewController+StoryboardActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 50040F3E172EECA8004A1E1B /* UIViewController+StoryboardActions.m */; };
 		50C21F2F1729DBF4009B4BB1 /* UIButton+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C21F2E1729DBF4009B4BB1 /* UIButton+TCCustomFont.m */; };
 		50C21F321729DC28009B4BB1 /* UILabel+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C21F311729DC28009B4BB1 /* UILabel+TCCustomFont.m */; };
 		50C21F351729DC50009B4BB1 /* UITextField+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C21F341729DC50009B4BB1 /* UITextField+TCCustomFont.m */; };
@@ -124,6 +127,12 @@
 		3B72C92E165296BA00A52233 /* ECSlidingSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingSegue.m; sourceTree = "<group>"; };
 		3B72C9311652995C00A52233 /* SegueMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegueMenuViewController.h; sourceTree = "<group>"; };
 		3B72C9321652995C00A52233 /* SegueMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegueMenuViewController.m; sourceTree = "<group>"; };
+		50040F37172EEC81004A1E1B /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		50040F38172EEC81004A1E1B /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		50040F39172EEC81004A1E1B /* ContainerSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerSegue.h; sourceTree = "<group>"; };
+		50040F3A172EEC81004A1E1B /* ContainerSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerSegue.m; sourceTree = "<group>"; };
+		50040F3D172EECA8004A1E1B /* UIViewController+StoryboardActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+StoryboardActions.h"; sourceTree = "<group>"; };
+		50040F3E172EECA8004A1E1B /* UIViewController+StoryboardActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+StoryboardActions.m"; sourceTree = "<group>"; };
 		50C21F2D1729DBF4009B4BB1 /* UIButton+TCCustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TCCustomFont.h"; sourceTree = "<group>"; };
 		50C21F2E1729DBF4009B4BB1 /* UIButton+TCCustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TCCustomFont.m"; sourceTree = "<group>"; };
 		50C21F301729DC28009B4BB1 /* UILabel+TCCustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TCCustomFont.h"; sourceTree = "<group>"; };
@@ -242,6 +251,7 @@
 		2750E77614CDB0DF007727A0 /* ECSlidingViewController */ = {
 			isa = PBXGroup;
 			children = (
+				50040F36172EEC6D004A1E1B /* Storyboard Support */,
 				50C21F2C1729DBD7009B4BB1 /* Categories */,
 				BB439D671727591C00B7B3BD /* Images */,
 				2750E78A14CDB1CF007727A0 /* Controllers */,
@@ -325,6 +335,17 @@
 			path = Vendor/ECSlidingViewController;
 			sourceTree = "<group>";
 		};
+		50040F36172EEC6D004A1E1B /* Storyboard Support */ = {
+			isa = PBXGroup;
+			children = (
+				50040F37172EEC81004A1E1B /* ContainerViewController.h */,
+				50040F38172EEC81004A1E1B /* ContainerViewController.m */,
+				50040F39172EEC81004A1E1B /* ContainerSegue.h */,
+				50040F3A172EEC81004A1E1B /* ContainerSegue.m */,
+			);
+			name = "Storyboard Support";
+			sourceTree = "<group>";
+		};
 		50C21F2C1729DBD7009B4BB1 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
@@ -336,6 +357,8 @@
 				50C21F341729DC50009B4BB1 /* UITextField+TCCustomFont.m */,
 				BB439DAC1729FF6700B7B3BD /* UINavigationController+BackButton.h */,
 				BB439DAD1729FF6700B7B3BD /* UINavigationController+BackButton.m */,
+				50040F3D172EECA8004A1E1B /* UIViewController+StoryboardActions.h */,
+				50040F3E172EECA8004A1E1B /* UIViewController+StoryboardActions.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -524,6 +547,9 @@
 				BB80D828172B1ABD0077C9D7 /* ComposeViewController.m in Sources */,
 				BB80D82B172B234E0077C9D7 /* CheckinViewController.m in Sources */,
 				BB80D840172B53A50077C9D7 /* NewMessageViewController.m in Sources */,
+				50040F3B172EEC81004A1E1B /* ContainerViewController.m in Sources */,
+				50040F3C172EEC81004A1E1B /* ContainerSegue.m in Sources */,
+				50040F3F172EECA9004A1E1B /* UIViewController+StoryboardActions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
