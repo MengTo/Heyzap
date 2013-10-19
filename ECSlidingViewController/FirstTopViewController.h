@@ -16,5 +16,6 @@
 
 - (IBAction)revealMenu:(id)sender;
 - (IBAction)revealUnderRight:(id)sender;
+- (IBAction)playSound:(id)sender;
 
 @end

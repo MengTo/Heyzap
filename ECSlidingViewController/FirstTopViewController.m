@@ -41,4 +41,8 @@
   [self.slidingViewController anchorTopViewTo:ECLeft];
 }
 
+- (IBAction)playSound:(id)sender {
+    [[SoundEffectPlayer sharedPlayer] playSoundNamed:@"switch12" fileExtension:@"wav"];
+}
+
 @end

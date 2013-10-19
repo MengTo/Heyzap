@@ -26,8 +26,11 @@
 {
     [super viewDidLoad];
     
-    if (!self.segueID1 || !self.segueID2) {
-        [NSException raise:@"Not enough Segue IDs" format:@"The container view controller did not have both segue IDs set correctly. Set them on the Storyboard in the User Defined Runtime Attributes section, inside the Identity Inspector tab"];
+    if (!self.segueID1) {
+        self.segueID1 = @"Container1";
+    }
+    if (!self.segueID2) {
+        self.segueID2 = @"Container2";
     }
     
     self.currentSegueIdentifier = self.segueID1;

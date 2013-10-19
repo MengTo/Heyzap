@@ -14,6 +14,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[NSUserDefaults standardUserDefaults] setObject:@YES forKey:@"UIUseLegacyUI"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
   return YES;
 }
 

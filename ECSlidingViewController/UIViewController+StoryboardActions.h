@@ -12,4 +12,6 @@
 
 - (IBAction)toggleContainers:(id)sender;
 
+- (IBAction)toggleSelected:(UIButton *)sender;
+
 @end

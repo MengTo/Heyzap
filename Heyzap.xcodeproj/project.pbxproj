@@ -87,6 +87,15 @@
 		BB80D83C172B51C70077C9D7 /* compose-select.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80D83A172B51C70077C9D7 /* compose-select.png */; };
 		BB80D83D172B51C70077C9D7 /* compose-to.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80D83B172B51C70077C9D7 /* compose-to.png */; };
 		BB80D840172B53A50077C9D7 /* NewMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB80D83F172B53A50077C9D7 /* NewMessageViewController.m */; };
+		BB80D88C172F26B40077C9D7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80D88B172F26B40077C9D7 /* Default.png */; };
+		BB80D88E172F26B70077C9D7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80D88D172F26B70077C9D7 /* Default@2x.png */; };
+		BB80D8C117318D6B0077C9D7 /* AchievementDialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB80D8C017318D6B0077C9D7 /* AchievementDialogViewController.m */; };
+		BB80D8C4173191950077C9D7 /* SoundEffectPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BB80D8C3173191950077C9D7 /* SoundEffectPlayer.m */; };
+		BB80D8C717319B5D0077C9D7 /* switch12.wav in Resources */ = {isa = PBXBuildFile; fileRef = BB80D8C617319B5D0077C9D7 /* switch12.wav */; };
+		BB80D8C917319BD40077C9D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB80D8C817319BD40077C9D7 /* AudioToolbox.framework */; };
+		BB80D8CB1731F45B0077C9D7 /* but_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80D8CA1731F45B0077C9D7 /* but_green@2x.png */; };
+		BB80D8CE1731F5950077C9D7 /* ButtonTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB80D8CD1731F5950077C9D7 /* ButtonTestViewController.m */; };
+		BB80D8D01731F6C70077C9D7 /* but_green.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80D8CF1731F6C70077C9D7 /* but_green.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -200,6 +209,18 @@
 		BB80D83B172B51C70077C9D7 /* compose-to.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose-to.png"; sourceTree = "<group>"; };
 		BB80D83E172B53A50077C9D7 /* NewMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewMessageViewController.h; sourceTree = "<group>"; };
 		BB80D83F172B53A50077C9D7 /* NewMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewMessageViewController.m; sourceTree = "<group>"; };
+		BB80D88B172F26B40077C9D7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BB80D88D172F26B70077C9D7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BB80D8BF17318D6B0077C9D7 /* AchievementDialogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AchievementDialogViewController.h; sourceTree = "<group>"; };
+		BB80D8C017318D6B0077C9D7 /* AchievementDialogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AchievementDialogViewController.m; sourceTree = "<group>"; };
+		BB80D8C2173191950077C9D7 /* SoundEffectPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundEffectPlayer.h; sourceTree = "<group>"; };
+		BB80D8C3173191950077C9D7 /* SoundEffectPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundEffectPlayer.m; sourceTree = "<group>"; };
+		BB80D8C617319B5D0077C9D7 /* switch12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = switch12.wav; sourceTree = "<group>"; };
+		BB80D8C817319BD40077C9D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BB80D8CA1731F45B0077C9D7 /* but_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "but_green@2x.png"; sourceTree = "<group>"; };
+		BB80D8CC1731F5950077C9D7 /* ButtonTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonTestViewController.h; sourceTree = "<group>"; };
+		BB80D8CD1731F5950077C9D7 /* ButtonTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonTestViewController.m; sourceTree = "<group>"; };
+		BB80D8CF1731F6C70077C9D7 /* but_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = but_green.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +228,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB80D8C917319BD40077C9D7 /* AudioToolbox.framework in Frameworks */,
 				27FC94E314D105C60000B18C /* QuartzCore.framework in Frameworks */,
 				2750E77114CDB0DF007727A0 /* UIKit.framework in Frameworks */,
 				2750E77314CDB0DF007727A0 /* Foundation.framework in Frameworks */,
@@ -220,6 +242,9 @@
 		2750E76114CDB0DF007727A0 = {
 			isa = PBXGroup;
 			children = (
+				BB80D8C817319BD40077C9D7 /* AudioToolbox.framework */,
+				BB80D88D172F26B70077C9D7 /* Default@2x.png */,
+				BB80D88B172F26B40077C9D7 /* Default.png */,
 				BB439D7F17276A6E00B7B3BD /* Icon.png */,
 				BB439D7D17276A6C00B7B3BD /* Icon@2x.png */,
 				BB439D7817275CA100B7B3BD /* Default-568h@2x.png */,
@@ -257,12 +282,19 @@
 				2750E78A14CDB1CF007727A0 /* Controllers */,
 				2750E78914CDB1C7007727A0 /* Vendor */,
 				2750E77F14CDB0DF007727A0 /* AppDelegate.h */,
+				BB80D8C517319B530077C9D7 /* Sounds */,
 				2750E78014CDB0DF007727A0 /* AppDelegate.m */,
 				2750E77714CDB0DF007727A0 /* Supporting Files */,
 				2750E78714CDB114007727A0 /* iPhone.storyboard */,
+				BB80D8CC1731F5950077C9D7 /* ButtonTestViewController.h */,
+				BB80D8CD1731F5950077C9D7 /* ButtonTestViewController.m */,
+				BB80D8BF17318D6B0077C9D7 /* AchievementDialogViewController.h */,
+				BB80D8C017318D6B0077C9D7 /* AchievementDialogViewController.m */,
 				BB80D83E172B53A50077C9D7 /* NewMessageViewController.h */,
 				BB80D83F172B53A50077C9D7 /* NewMessageViewController.m */,
 				BB80D829172B234E0077C9D7 /* CheckinViewController.h */,
+				BB80D8C2173191950077C9D7 /* SoundEffectPlayer.h */,
+				BB80D8C3173191950077C9D7 /* SoundEffectPlayer.m */,
 				BB80D82A172B234E0077C9D7 /* CheckinViewController.m */,
 				BB439DA91729FD9400B7B3BD /* PeopleViewController.h */,
 				BB439DAA1729FD9400B7B3BD /* PeopleViewController.m */,
@@ -366,10 +398,12 @@
 		BB439D671727591C00B7B3BD /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				BB80D8CA1731F45B0077C9D7 /* but_green@2x.png */,
 				BB80D83A172B51C70077C9D7 /* compose-select.png */,
 				BB80D83B172B51C70077C9D7 /* compose-to.png */,
 				BB80D838172B4DEA0077C9D7 /* scores.png */,
 				BB80D832172B46520077C9D7 /* achievements-popup.png */,
+				BB80D8CF1731F6C70077C9D7 /* but_green.png */,
 				BB80D833172B46520077C9D7 /* achievements.png */,
 				BB80D834172B46520077C9D7 /* menu-badges.png */,
 				BB80D82C172B28C80077C9D7 /* messages-bar.png */,
@@ -414,6 +448,14 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
+		BB80D8C517319B530077C9D7 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				BB80D8C617319B5D0077C9D7 /* switch12.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -441,6 +483,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0460;
+				TargetAttributes = {
+					2750E76B14CDB0DF007727A0 = {
+						DevelopmentTeam = 68WS2M23VC;
+					};
+				};
 			};
 			buildConfigurationList = 2750E76614CDB0DF007727A0 /* Build configuration list for PBXProject "Heyzap" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -513,6 +560,11 @@
 				BB80D839172B4DEA0077C9D7 /* scores.png in Resources */,
 				BB80D83C172B51C70077C9D7 /* compose-select.png in Resources */,
 				BB80D83D172B51C70077C9D7 /* compose-to.png in Resources */,
+				BB80D88C172F26B40077C9D7 /* Default.png in Resources */,
+				BB80D88E172F26B70077C9D7 /* Default@2x.png in Resources */,
+				BB80D8C717319B5D0077C9D7 /* switch12.wav in Resources */,
+				BB80D8CB1731F45B0077C9D7 /* but_green@2x.png in Resources */,
+				BB80D8D01731F6C70077C9D7 /* but_green.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,6 +602,9 @@
 				50040F3B172EEC81004A1E1B /* ContainerViewController.m in Sources */,
 				50040F3C172EEC81004A1E1B /* ContainerSegue.m in Sources */,
 				50040F3F172EECA9004A1E1B /* UIViewController+StoryboardActions.m in Sources */,
+				BB80D8C117318D6B0077C9D7 /* AchievementDialogViewController.m in Sources */,
+				BB80D8C4173191950077C9D7 /* SoundEffectPlayer.m in Sources */,
+				BB80D8CE1731F5950077C9D7 /* ButtonTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,10 +684,11 @@
 		2750E78514CDB0DF007727A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ECSlidingViewController/Heyzap-Prefix.pch";
 				INFOPLIST_FILE = "ECSlidingViewController/Heyzap-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = Heyzap;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -642,10 +698,11 @@
 		2750E78614CDB0DF007727A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ECSlidingViewController/Heyzap-Prefix.pch";
 				INFOPLIST_FILE = "ECSlidingViewController/Heyzap-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = Heyzap;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;

@@ -19,4 +19,8 @@
     }
 }
 
+- (IBAction)toggleSelected:(UIButton *)sender {
+    sender.selected = !sender.selected;
+}
+
 @end
